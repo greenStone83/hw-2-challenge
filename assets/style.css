@@ -1,3 +1,7 @@
+h1 {
+    padding-left: 8px;
+}
+
 h2 {
     padding-top: 40px;
     padding-left: 8px;
@@ -5,23 +9,33 @@ h2 {
 }
 
 h3 {
-    padding-top: 20px;
     padding-left: 12px;
+    font-size: 20px;
 }
 
 p {
     padding-left: 16px;
 }
 
-h1 {
-    padding-left: 8px;
-}
-
 li {
     padding-top: 4px;
+    font-size: 18px;
 }
 
 * {
     background-color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#headpic {
+    padding-left: 12px;
+}
+
+#apps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app {
+    padding-left: 20px;
 }
