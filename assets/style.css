@@ -1,41 +1,67 @@
 h1 {
-    padding-left: 8px;
+    padding: 12px 20px;
 }
 
 h2 {
-    padding-top: 40px;
-    padding-left: 8px;
+    padding: 8px 16px;
+    margin: 4px;
     color: maroon;
 }
 
 h3 {
-    padding-left: 12px;
+    padding: 8px 4px;
+    padding-top: 0px;
+    margin: 4px;
     font-size: 20px;
 }
 
 p {
-    padding-left: 16px;
+    padding: 0px 20px;
+    margin: 8px;
 }
 
 li {
-    padding-top: 4px;
+    padding: 4px;
     font-size: 18px;
 }
 
+ul {
+    padding: 0px 40px;
+    margin: 4px;
+}
+
 * {
-    background-color: beige;
+    margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #headpic {
-    padding-left: 12px;
+    padding-left: 20px;
+    margin: 4px;
 }
 
 #apps {
     display: flex;
     flex-wrap: wrap;
+    padding: 4px 8px;
 }
 
 .app {
-    padding-left: 20px;
+    padding-left: 8px;
+    margin: 8px;
+}
+
+.first-bar {
+    background-color: beige;
+    padding-bottom: 8px;
+}
+
+.second-bar {
+    background-color: white;
+    padding-bottom: 8px;
+}
+
+#MyWork {
+    padding-top: 16px;
+    padding-bottom: 4px;
 }
